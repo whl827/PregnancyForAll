@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="itp341.lee.woonghee.finalproject.View.SignUpFragment">
+
+    <ImageView
+        android:layout_width="@dimen/picture_size"
+        android:layout_height="@dimen/picture_size"
+        android:id="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/baby"/>
+
+    <ImageButton
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginStart="@dimen/image_button_space"
+        android:id="@+id/select_pic_button"
+        android:text="@string/select_pic"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_alignBottom="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/camera"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:text="@string/first_name"
+        android:layout_below="@id/select_pic_button"
+        android:layout_marginTop="@dimen/image_size"
+        style="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name_textbox"
+        android:layout_toEndOf="@id/first_name"
+        android:layout_alignBottom="@id/first_name"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name"
+        android:text="@string/last_name"
+        android:layout_below="@id/first_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name_textbox"
+        android:layout_toEndOf="@id/last_name"
+        android:layout_alignBottom="@id/last_name"
+        android:layout_alignStart="@id/first_name_textbox"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="@string/email"
+        android:layout_below="@id/last_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_textbox"
+        android:layout_toEndOf="@id/email"
+        android:layout_alignBottom="@id/email"
+        android:layout_alignStart="@id/first_name_textbox"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:text="@string/password"
+        android:layout_below="@id/email"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_textbox"
+        android:layout_toEndOf="@id/password"
+        android:layout_alignBottom="@id/password"
+        android:layout_alignStart="@id/first_name_textbox"
+        android:inputType="textPassword"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/terms"
+        android:text="@string/terms"
+        android:layout_below="@id/password"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Small"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/terms_of_service"
+        android:layout_below="@id/terms"
+        android:text="@string/terms_of_service"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account"
+        android:layout_alignParentBottom="true"
+        android:text="@string/create_account"
+        android:layout_centerHorizontal="true"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+</RelativeLayout>
