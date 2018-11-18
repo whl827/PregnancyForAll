@@ -6,34 +6,24 @@
 &nbsp;
 
 ### Login Page
-
-
 &nbsp;
+
 ![alt text](https://github.com/whl827/PregnancyForAll/blob/master/Pictures/1.PNG)
 &nbsp;
 
-
-
 ### Facebook Login page
-
-
 &nbsp;
+
 ![alt text](https://github.com/whl827/PregnancyForAll/blob/master/Pictures/2.PNG)
 &nbsp;
 
-
-
 ### Create Account Page
-
-
 &nbsp;
+
 ![alt text](https://github.com/whl827/PregnancyForAll/blob/master/Pictures/4.PNG)
 &nbsp;
 
-
-
 ### NewsFeed Page
-
-
 &nbsp;
+
 ![alt text](https://github.com/whl827/PregnancyForAll/blob/master/Pictures/3.PNG)
